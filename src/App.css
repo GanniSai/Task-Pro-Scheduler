@@ -1,0 +1,325 @@
+
+.LoginCheck {
+
+  text-align: center;
+}
+
+.LoginCheck h2 {
+  color: #0b0fd3;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.Login label {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  
+}
+
+.Login input {
+  width: 20%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.Login input[type="text"], 
+.Login input[type="password"] {
+  font-size: 1rem;
+}
+
+button {
+  background-color: #0bea21;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s ease;
+}
+
+button:hover {
+  background-color: #0ddfee;
+}
+
+h2 {
+  font-weight: 600;
+  color: #0f0101;
+}
+
+.success, .error {
+  margin-bottom: 20px;
+}
+.welcomePage {
+  position: absolute;  /* Use absolute positioning */
+  top: 250%;             /* Center vertically */
+  left: 50%;            /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for true center alignment */
+  text-align: center;  /* Center text horizontally */
+  font-size: 25px;     /* Adjust font size as needed */
+  padding: 50px;       /* Add some padding */
+  border-radius: 25px; /* Optional border radius for rounded corners */
+  color: black;
+}
+.userDetails
+{
+  position: absolute;  /* Use absolute positioning */
+  top: 10%;             /* Center vertically */
+  left: 50%;            /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for true center alignment */
+   /* Center text horizontally */
+     /* Adjust font size as needed */
+  padding: 10px;       /* Add some padding */
+  border-radius: 25px; /* Optional border radius for rounded corners */
+  
+}
+.manageTodos {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.manageTodos a {
+  color: #1abc9c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.manageTodos a:hover {
+  color: #16a085;
+}
+
+
+/* CSS for the HeaderComponent */
+header {
+  background-color: #ffffff; /* White background */
+  /* box-shadow: 0 4px 8px rgba(245, 3, 3, 0.05); Light shadow */
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  background-color: beige;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #0b12e1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #0eec19; /* Lighter hover color */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Space between nav items */
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+
+.nav-link:hover {
+  color: #07db4e; /* Hover effect for nav links */
+}
+
+.nav-link.active {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navbar-toggler {
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Modify for smaller screens */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    flex-direction: row;
+    justify-content: flex-start; /* Keep the elements aligned side by side */
+    gap: 20px; /* Reduced gap for smaller screens */
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px; /* Further reduced gap */
+  }
+
+  .navbar-collapse {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.footer {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px; /* Space between the icons */
+}
+
+.social-icon {
+  width: 25px; /* Set the desired size of the icons */
+  height: 25px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);  /* Enlarge the icon on hover */
+  opacity: 0.8;           /* Slight fade on hover */
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+thead td {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+tfoot td {
+  padding: 10px;
+  text-align: right;
+}
+
+tfoot {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #777;
+}
+
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  color: #333;
+}
+.logoutbutton {
+  position: absolute;  /* Use absolute positioning */
+  top: 300%;             /* Center vertically */
+  left: 50%;            /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for true center alignment */
+  text-align: center;  /* Center text horizontally */
+  font-size: 40px;     /* Adjust font size as needed */
+  padding: 50px;       /* Add some padding */
+  background-color: #e6f205; /* Optional background color for better visibility */
+  border-radius: 25px; /* Optional border radius for rounded corners */
+  color: black;
+}
+
+.deleteButton
+{
+  transform: translate(0%, 0%); 
+  color: black;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.updateButton
+{
+  transform: translate(0%, 0%); 
+  color: black;
+  font-size: 15px;
+  border-radius: 25px;
+}
+.deletemessgagebyid 
+{
+  transform: translate(40%, 0%);
+
+  justify-content: center;    
+  align-items: center;        
+  
+  font-size: 25px;            
+         
+  color: #ff0505;                
+  
+   
+}
+
+
+
+
+
+
